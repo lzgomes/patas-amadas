@@ -1,0 +1,268 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "nome": "Mia",
+      "especie": "Gato",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Gata tranquila e carinhosa, adora brincar e ficar no colo.",
+      "imagem": "./img/mia.jpg",
+      "email": "mia@adote.com",
+      "sexo": "Fêmea"
+    },
+    {
+      "id": 2,
+      "nome": "Max",
+      "especie": "Cachorro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Cachorro amigável e energético, adora correr e brincar.",
+      "imagem": "./img/max.jpg",
+      "email": "max@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 3,
+      "nome": "Luna",
+      "especie": "Gato",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Gata ativa, gosta de explorar e caçar brinquedos.",
+      "imagem": "./img/luna.jpg",
+      "email": "luna@adote.com",
+      "sexo": "Fêmea"
+    },
+    {
+      "id": 4,
+      "nome": "Rex",
+      "especie": "Cachorro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Cão guardião, sempre alerta e protetor da casa.",
+      "imagem": "./img/rex.jpg",
+      "email": "rex@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 5,
+      "nome": "Felix",
+      "especie": "Gato",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Gato curioso e esperto, sempre em busca de novidades.",
+      "imagem": "./img/felix.jpg",
+      "email": "felix@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 6,
+      "nome": "Tom",
+      "especie": "Cachorro",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Cachorro brincalhão, adora correr e fazer novos amigos.",
+      "imagem": "./img/tom.jpg",
+      "email": "Tom@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 7,
+      "nome": "Nina",
+      "especie": "Gato",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Gata tranquila, ideal para apartamentos e casas pequenas.",
+      "imagem": "./img/nina.jpg",
+      "email": "nina@adote.com",
+      "sexo": "Fêmea"
+    },
+    {
+      "id": 8,
+      "nome": "Thor",
+      "especie": "Cachorro",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Cachorro forte e corajoso, ideal para proteção e companhia.",
+      "imagem": "./img/thor.jpg",
+      "email": "thor@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 9,
+      "nome": "Sofia",
+      "especie": "Gato",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Gata doce e companheira, gosta de ficar perto das pessoas.",
+      "imagem": "./img/sofia.jpg",
+      "email": "sofia@adote.com",
+      "sexo": "Fêmea"
+    },
+    {
+      "id": 10,
+      "nome": "Zeus",
+      "especie": "Cachorro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Cachorro leal e ativo, adora longas caminhadas.",
+      "imagem": "./img/zeus.jpg",
+      "email": "zeus@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 11,
+      "nome": "Oliver",
+      "especie": "Gato",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Gato independente, gosta de explorar e descobrir novos lugares.",
+      "imagem": "./img/oliver.jpg",
+      "email": "oliver@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 12,
+      "nome": "Bella",
+      "especie": "Cachorro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Cachorra meiga e tranquila, ótima para crianças.",
+      "imagem": "./img/bella.jpg",
+      "email": "bella@adote.com",
+      "sexo": "Fêmea"
+    },
+    {
+      "id": 13,
+      "nome": "Tito",
+      "especie": "Gato",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Gato brincalhão e divertido, adora caçar brinquedos.",
+      "imagem": "./img/tito.jpg",
+      "email": "tito@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 14,
+      "nome": "Bob",
+      "especie": "Cachorro",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Cachorro tranquilo, adora um bom cochilo depois de uma caminhada.",
+      "imagem": "./img/bob.jpg",
+      "email": "bob@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 15,
+      "nome": "Lili",
+      "especie": "Gato",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Gata dócil e tranquila, adora carinho e atenção.",
+      "imagem": "./img/lili.jpg",
+      "email": "lili@adote.com",
+      "sexo": "Fêmea"
+    },
+    {
+      "id": 16,
+      "nome": "Fred",
+      "especie": "Cachorro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Cachorro animado, ideal para quem gosta de atividades ao ar livre.",
+      "imagem": "./img/fred.jpg",
+      "email": "fred@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 17,
+      "nome": "Mel",
+      "especie": "Gato",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Gata calma e observadora, gosta de ficar em locais altos.",
+      "imagem": "./img/mel.jpg",
+      "email": "mel@adote.com",
+      "sexo": "Fêmea"
+    },
+    {
+      "id": 18,
+      "nome": "Toretto",
+      "especie": "Cachorro",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Cachorro ativo e muito esperto.",
+      "imagem": "./img/toretto.jpg",
+      "email": "toretto@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 19,
+      "nome": "Zoe",
+      "especie": "Gato",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Gata brincalhona e energética, adora correr e se esconder.",
+      "imagem": "./img/zoe.jpg",
+      "email": "zoe@adote.com",
+      "sexo": "Fêmea"
+    },
+    {
+      "id": 20,
+      "nome": "Simba",
+      "especie": "Cachorro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Cachorro forte e independente, ótimo para quintais grandes.",
+      "imagem": "./img/simba.jpg",
+      "email": "simba@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 21,
+      "nome": "Jaden",
+      "especie": "Gato",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Gato calmo e silencioso, gosta de tranquilidade e paz.",
+      "imagem": "./img/jaden.jpg",
+      "email": "jaden@adote.com",
+      "sexo": "Macho"
+    },
+    {
+      "id": 22,
+      "nome": "Liz",
+      "especie": "Cachorro",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Cachorra dócil e brincalhona, sempre quer estar perto da família.",
+      "imagem": "./img/liz.jpg",
+      "email": "Liz@adote.com",
+      "sexo": "Fêmea"
+    },
+    {
+      "id": 23,
+      "nome": "Lola",
+      "especie": "Gato",
+      "cidade": "Sorocaba",
+      "estado": "SP",
+      "descricao": "Gata carinhosa, adora uma boa soneca ao sol.",
+      "imagem": "./img/lola.jpg",
+      "email": "lola@adote.com",
+      "sexo": "Fêmea"
+    },
+    {
+      "id": 24,
+      "nome": "Duque",
+      "especie": "Cachorro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "descricao": "Cachorro forte e protetor, sempre atento ao que acontece ao redor.",
+      "imagem": "./img/duque.jpg",
+      "email": "duque.responsavel@adote.com",
+      "sexo": "Macho"
+    }
+  ]
+}

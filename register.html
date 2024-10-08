@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Animal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="./img/logo.png" alt="Logo Patas Amadas" id="logo"/></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="register.html">Cadastrar Animal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Cadastrar Animal</h2>
+        <form id="registrar-formulario">
+            <label for="responsavel-nome">Nome do Responsável:</label>
+            <input type="text" id="responsavel-nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="nome">Nome do Animal:</label>
+            <input type="text" id="nome" required>
+
+            <label for="especie">Espécie do Animal:</label>
+            <select id="especie" required>
+                <option value=""></option>
+                <option value="Cachorro">Cachorro</option>
+                <option value="Gato">Gato</option>
+            </select>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" required>
+                <option value=""></option>
+                <option value="macho">Macho</option>
+                <option value="femea">Fêmea</option>
+            </select>
+            
+            <label for="estado">Estado:</label>
+            <select id="estado" required>
+                <option value=""></option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+
+            <label for="cidade">Cidade:</label>
+            <select id="cidade" required>
+                <option value=""></option>
+                <option value="Sorocaba">Sorocaba</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+            </select>
+
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" required placeholder="Descreva a característica do animal"></textarea>
+
+            <button type="submit">Cadastrar</button>
+            <div id="resposta-mensagem"></div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Patas Amadas - Todos os direitos reservados.</p>
+        <p>Contato: contato@patasamadas.com</p>
+        <p>Desenvolvido por LUIZ EDUARDO FERREIRA GOMES (RU: 4346557) e HELENA CORREIA GOMES (RU: 4333372)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

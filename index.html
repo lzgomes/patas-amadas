@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patas Amadas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="./img/logo.png" alt="Logo Patas Amadas" id="logo"/></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="register.html">Cadastrar Animal</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Animais Disponíveis para Adoção</h2>
+      <form id="formulario-busca">
+        <label for="buscar-estado">Estado:</label>
+        <select id="buscar-estado">
+          <option value="">Todos os Estados</option>
+          <option value="SP">São Paulo</option>
+          <option value="RJ">Rio de Janeiro</option>
+        </select>
+
+        <label for="buscar-cidade">Cidade:</label>
+        <select id="buscar-cidade">
+          <option value="">Todas as Cidades</option>
+          <option value="Sorocaba">Sorocaba</option>
+          <option value="Rio de Janeiro">Rio de Janeiro</option>
+        </select>
+
+        <label for="buscar-especie">Espécie de Animal:</label>
+        <select id="buscar-especie">
+          <option value="">Todos os Tipos</option>
+          <option value="Cachorro">Cachorro</option>
+          <option value="Gato">Gato</option>
+        </select>
+
+        <button type="submit">Buscar</button>
+        <button type="button" id="reset-button">Remover Filtros</button>
+      </form>
+
+      <div id="animal-container"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Patas Amadas - Todos os direitos reservados.</p>
+      <p>Contato: contato@patasamadas.com</p>
+      <p>Desenvolvido por LUIZ EDUARDO FERREIRA GOMES (RU: 4346557) e HELENA CORREIA GOMES (RU: 4333372)</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
